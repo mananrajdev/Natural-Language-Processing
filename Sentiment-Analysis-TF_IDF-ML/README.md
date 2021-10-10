@@ -1,9 +1,10 @@
-Description
+<h1><b>Description</b></h1>
 
 This assignment gives me hands-on experience with text representations and the use of text classication for sentiment analysis. 
 Sentiment analysis is extensively used to study customer behaviors using reviews and survey responses, online and social media, and healthcare materials for marketing and costumer service applications.
 
-Task 1 - Data Preparation
+<b>Task 1 - Data Preparation</b>
+
 We will use the Amazon reviews dataset which contains real reviews for kitchen products sold on Amazon. The dataset is downloadable at:
 https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Kitchen_v1_00.tsv.gz
 
@@ -11,7 +12,8 @@ Read the data as a Pandas frame using Pandas package and only keep the Reviews a
 
 The original dataset is large. To avoid computational burden, I selected 100,000 reviews with positive sentiment along with 100,000 reviews withmnegative sentiment to preform the required tasks on the downsized dataset.
 
-Task 2 - Data Cleaning
+<b>Task 2 - Data Cleaning</b>
+
 Implement the following steps to preprocess the dataset you created:
 - convert the all reviews into the lower case.
 - remove the HTML and URLs from the reviews
@@ -19,19 +21,24 @@ Implement the following steps to preprocess the dataset you created:
 - remove extra spaces
 - perform contractions on the reviews, e.g., won't ! will not. Include as many contractions in English that you can think of.
 
-Task 3 - Preprocessing
+<b>Task 3 - Preprocessing</b>
+
 Use NLTK package to process your dataset:
 - remove the stop words
 - perform lemmatization
 
-Task 4 - Feature Extraction
+<b>Task 4 - Feature Extraction</b>
+
 Use sklearn to extract TF-IDF features. At this point, you should have created a dataset which consists of features and binary labels for the reviews you selected.
 
-Task 5 - Perceptron
+<b>Task 5 - Perceptron</b>
+
 Train a Perceptron model on your training dataset using the sklearn built-in implementation.
 
-Task 6 - SVM
+<b>Task 6 - SVM</b>
+
 Train an SVM model on your training dataset using the sklearn built-in implementation.
 
-Task 7 - Logistic Regression
+<b>Task 7 - Logistic Regression</b>
+
 Train a Logistic Regression model on your training dataset using the sklearn built-in implementation.
