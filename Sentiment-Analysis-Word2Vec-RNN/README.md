@@ -47,7 +47,7 @@ To generate the input features, use the average Word2Vec vectors similar to the 
 To generate the input features, concatenate the first 10 Word2Vec vectors for each review as the input feature and train the neural network.
 
 <b>Task 6 - Recurrent Neural Networks</b>
-Using the features that you can generate using the models you prepared in the "Word Embedding" section, train a recurrent neural network (RNN) for sentiment analysis classication. You can refer to the following tutorial to familiarize yourself: <a> https://pytorch.org/tutorials/intermediate/char_rnn_classification_tutorial.html </a>
+Using the features that you can generate using the models you prepared in the "Word Embedding" section, train a recurrent neural network (RNN) for sentiment analysis classification. You can refer to the following tutorial to familiarize yourself: <a> https://pytorch.org/tutorials/intermediate/char_rnn_classification_tutorial.html </a>
 
 Train a simple RNN for sentiment analysis. You can consider an RNN cell with the hidden state size of 50. To feed your data into our RNN, limit the maximum review length to 50 by truncating longer reviews and padding shorter reviews with a null value (0). Train the RNN network for binary classification using class 1 and class 2 and also a ternary model for the three classes.
 
