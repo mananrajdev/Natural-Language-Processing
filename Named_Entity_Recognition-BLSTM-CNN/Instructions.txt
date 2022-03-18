@@ -1,0 +1,25 @@
+The data folder and glove.6B.100d.txt should be present in the same directory
+
+TASK 1 : 
+Jupyter Notebook : ner_blstm.ipynb
+Python Code : ner_blstm.py
+Model : blstm1.pt
+Dev file : dev1.out
+Test file : test1.out
+Command : python ner_blstm.py task1 blstm1.pt dev1.out test1.out
+
+TASK 2 : 
+Jupyter Notebook : ner_blstm.ipynb
+Python Code : ner_blstm.py
+Model : blstm2.pt
+Dev file : dev2.out
+Test file : test2.out
+Command : python ner_blstm.py task2 blstm2.pt dev2.out test2.out
+
+TASK 3 : 
+Jupyter Notebook : ner_blstm_cnn.ipynb
+Python Code : ner_blstm_cnn.py
+Model : blstm3.pt
+Dev file : dev3.out
+Test file : test3.out
+Command : python ner_blstm_cnn.py blstm3.pt dev3.out test3.out
